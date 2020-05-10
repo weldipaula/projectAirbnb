@@ -1,0 +1,159 @@
+* {
+  margin-left: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+  /* alinhnamento e tamanho do container principal */
+header, section, main, footer, #paginas {
+  width: 100%;
+  max-width: 120vh;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid rgb(189, 186, 186);
+  box-shadow: 0px 2px rgba(136, 136, 136, 0.178);
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-nav ul li a, 
+.nav-options a,
+.container a, 
+.container-footer a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+section, main{
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.flex-nav ul{
+  display: flex;
+  border: 1px solid rgb(189, 186, 186);
+  box-shadow: 0px 2px rgba(136, 136, 136, 0.178);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.flex-nav ul li {
+  display: flex;
+  border-right: 1px solid rgb(189, 186, 186);
+  box-shadow: 0px 2px rgba(136, 136, 136, 0.178);
+  padding: 10px;
+}
+
+#fim {
+  border: none;
+}
+
+.nav-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-options span,
+.container-footer div {
+  border: 1px solid rgb(189, 186, 186);
+  box-shadow: 0px 2px rgba(136, 136, 136, 0.178);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.nav-info{
+  margin: 50px 0 10px 0;
+}
+
+.nav-info h3 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.info span {
+  padding-left: 20px;
+}
+
+.main {
+  
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.city {
+  display: flex;
+  align-items: stretch;
+  margin-top: 10px;
+  width: 100
+}
+
+.description {
+  margin-left: 15px;
+}
+
+.description p {
+  color: rgba(0, 0, 0, 0.384)
+}
+
+.city div img{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#city-desc {
+  font-size: 22px;
+  padding-right: 5px;
+  color: black;
+}
+
+.price {
+  display: flex;
+  float: right;
+  font-size: 22px;
+  margin-top: 60px;
+}
+
+footer {
+  border-top: 1px solid rgb(189, 186, 186);
+  margin-top: 30px;
+}
+
+#paginas {
+ display: flex;
+}
+
+#paginas a {
+  padding: 15px 5px 0 0;
+  text-decoration: none;
+}
+
+.container-footer {
+  margin: 0px 30px 30px 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
